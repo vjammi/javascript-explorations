@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hive-usage
+  labels:
+    app: hive-usage
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hive-usage
+  template:
+    metadata:
+      labels:
+        app: hive-usage
+    spec:
+      containers:
+        - name: hive-usage
+          image: ghcr.io/kamilkisiela/graphql-hive:latest
+          command: ["pnpm", "start:hive-usage"]
+          ports:
+            - containerPort: 4000

@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hive-tokens
+  labels:
+    app: hive-tokens
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hive-tokens
+  template:
+    metadata:
+      labels:
+        app: hive-tokens
+    spec:
+      containers:
+        - name: hive-tokens
+          image: ghcr.io/kamilkisiela/graphql-hive:latest
+          command: ["pnpm", "start:hive-tokens"]
+          ports:
+            - containerPort: 4000

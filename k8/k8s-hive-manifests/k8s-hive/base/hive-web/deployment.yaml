@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hive-web
+  labels:
+    app: hive-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hive-web
+  template:
+    metadata:
+      labels:
+        app: hive-web
+    spec:
+      containers:
+        - name: hive-web
+          image: ghcr.io/kamilkisiela/graphql-hive:latest
+          command: ["pnpm", "start:hive-web"]
+          ports:
+            - containerPort: 4000

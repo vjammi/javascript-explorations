@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hive-cdn
+  labels:
+    app: hive-cdn
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hive-cdn
+  template:
+    metadata:
+      labels:
+        app: hive-cdn
+    spec:
+      containers:
+        - name: hive-cdn
+          image: ghcr.io/kamilkisiela/graphql-hive:latest
+          command: ["pnpm", "start:hive-cdn"]
+          ports:
+            - containerPort: 4000
