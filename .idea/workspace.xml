@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c41716c-22b1-4ae8-bb72-173c79a25a1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/schema/resolveFieldTypesByIntrospection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/resolveFieldTypesByLoadingSchemaFiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,27 +23,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/ds/workspace/node/javascript-explorations/schema",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.resolveFieldTypesByIntrospection.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.resolveFieldTypesByLoadingSchemaFiles.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ds/workspace/node/js/javascript-explorations/k8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ds\workspace\node\js\javascript-explorations\k8" />
       <recent name="C:\ds\workspace\node\javascript-explorations\schema" />
       <recent name="C:\ds\workspace\node\javascript-explorations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\ds\workspace\node\javascript-explorations\docs" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.resolveFieldTypesByIntrospection.js">
+    <configuration name="resolveFieldTypesByIntrospection.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/schema/resolveFieldTypesByIntrospection.js" working-dir="$PROJECT_DIR$/schema">
+      <method v="2" />
+    </configuration>
+    <configuration name="resolveFieldTypesByLoadingSchemaFiles.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/schema/resolveFieldTypesByLoadingSchemaFiles.js" working-dir="$PROJECT_DIR$/schema">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.resolveFieldTypesByIntrospection.js" />
+        <item itemvalue="Node.js.resolveFieldTypesByLoadingSchemaFiles.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -65,7 +81,11 @@
       <workItem from="1735620844488" duration="5884000" />
       <workItem from="1736492071853" duration="1480000" />
       <workItem from="1743014069288" duration="17000" />
-      <workItem from="1743014092932" duration="173000" />
+      <workItem from="1743014092932" duration="3567000" />
+      <workItem from="1744003861739" duration="33000" />
+      <workItem from="1745109408984" duration="670000" />
+      <workItem from="1745120236308" duration="1601000" />
+      <workItem from="1745707572721" duration="1205000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hive-server
+  namespace: graphql-hive
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hive-server
+  template:
+    metadata:
+      labels:
+        app: hive-server
+    spec:
+      containers:
+        - name: hive-server
+          image: ghcr.io/kamilkisiela/graphql-hive:latest
+          command: ["pnpm", "start:server"]
+          ports:
+            - containerPort: 4000
+          envFrom:
+            - configMapRef:
+                name: hive-config
+            - secretRef:
+                name: hive-secrets

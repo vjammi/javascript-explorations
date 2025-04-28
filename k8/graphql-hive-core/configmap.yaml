@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hive-config
+  namespace: graphql-hive
+data:
+  NODE_ENV: production
+  HIVE_APP_BASE_URL: http://hive-web
+  HIVE_SERVER_ENDPOINT: http://hive-server:4000
