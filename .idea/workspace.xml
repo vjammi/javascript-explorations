@@ -15,6 +15,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -45,6 +49,7 @@
       <recent name="C:\ds\workspace\node\javascript-explorations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ds\workspace\node\js\javascript-explorations\k8\graphql-hive-core" />
       <recent name="C:\ds\workspace\node\javascript-explorations\docs" />
     </key>
   </component>
@@ -86,6 +91,8 @@
       <workItem from="1745109408984" duration="670000" />
       <workItem from="1745120236308" duration="1601000" />
       <workItem from="1745707572721" duration="1205000" />
+      <workItem from="1745829622574" duration="750000" />
+      <workItem from="1745915711329" duration="23000" />
     </task>
     <servers />
   </component>
